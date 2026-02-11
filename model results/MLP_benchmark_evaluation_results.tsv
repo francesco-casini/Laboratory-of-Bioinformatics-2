@@ -1,0 +1,2 @@
+MCC	Accuracy	Precision	Recall	F1 Score	True Positives (TP)	False Negatives (FN)	False Positives (FP)	True Negatives (TN)
+0.9845442049141662	0.9969620253164557	0.9817351598173516	0.9907834101382489	0.9862385321100917	215	2	4	1754

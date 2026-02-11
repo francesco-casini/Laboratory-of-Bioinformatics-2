@@ -1,0 +1,6 @@
+Metric,Average,Standard Error
+Accuracy,0.9,0.002
+F1 Score,0.55,0.012
+Precision,0.52,0.004
+Recall,0.59,0.032
+MCC,0.49,0.014
