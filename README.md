@@ -1,6 +1,8 @@
 
 # Signal Peptide Prediction: Classical vs Machine Learning vs Deep Learning
 
+This project was developed as part of the Laboratory of Bioinformatics 2 course 2024/2025 for the Master’s degree in Bioinformatics at the University of Bologna. It focuses on the computational prediction of signal peptides (SPs)—short N-terminal sequences that act as "zip codes" to direct proteins to their correct cellular destinations.
+
 ## Project description
 
 This project investigates and compares three computational approaches for **signal peptide prediction in eukaryotic protein sequences**, progressing from classical statistical methods to modern deep learning architectures. The goal is to evaluate how increasingly sophisticated models impact predictive performance.
@@ -16,7 +18,6 @@ The following methods are implemented and benchmarked:
 * **Multi-Layer Perceptron (MLP) with ESM-2 embeddings**
   A deep learning approach leveraging transformer-based protein language model embeddings (ESM-2) to encode sequences in a high-dimensional, information-rich space.
 
----
 
 ## Data and Methodology
 
@@ -54,7 +55,6 @@ All models were evaluated using **5-fold cross-validation**.
     * Number of neurons per layer
     * Dropout rates
 
----
 
 ## Results
 
@@ -66,7 +66,6 @@ The comparative analysis reveals a clear performance hierarchy:
 
 These results demonstrate the effectiveness of **protein language models** in capturing complex, context-dependent biological patterns that are difficult to encode manually. Transformer-based embeddings such as ESM-2 enable substantially more accurate signal peptide prediction.
 
----
 
 ## Technical Implementation
 
@@ -84,7 +83,6 @@ The repository is implemented in **Python** and integrates the following librari
 * **PyTorch**
   Design, training and optimization of the MLP neural network
 
----
 
 ## Conclusion
 
